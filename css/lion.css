@@ -1,0 +1,47 @@
+/*start variables*/
+/*end variable*/
+/*start global rules*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.parent{
+    background-color:#eee;
+}
+
+.container{
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#aaa;
+}
+
+/*media same as bootstrab3 codes to prevent scrole*/
+
+/*small<=768px*/
+@media(min-width:768px){
+    .container{
+        width:750px;
+    }
+}
+
+/*768>mediam>1200*/
+@media(min-wdth:992px){
+    .container{
+        width:970;
+    }
+}
+
+/*larg>=1200*/
+@media(min-width:1200px){
+    .container{
+        width:1170px;
+    }
+}
