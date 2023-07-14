@@ -1,0 +1,65 @@
+    <!--start header-->
+    <div class="header">
+        <div class="container">
+            <img class="logo" src="images/logo.jpg" alt="">
+            <div class="links">
+                <span class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <ul>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contact</a></li>
+                
+                
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+/*end global rules*/
+/*header*/
+.header{
+    padding:20px;
+}
+.header .container{
+display:flex; /*لاجعل بين اللوجو وزر القائمه مسافه بينهم*/
+justify-content:space-between;
+align-items:center;
+}
+.header .logo{
+    width:60px;
+}
+.header .links{
+    position:relative;
+}
+
+.header .links .icon{
+    width:30px;
+    display:flex;
+    flex-wrap:wrap; /*عشان العناصر لما تملى الشاشه تنزل تحت عشان عاوز 3 بار تحت بعض*/
+}
+
+.header .links .icon .span {
+    background: color #333;
+    margin-bottom: bottom 5px;
+}
+.header .links .icon .span:first-child{
+    height:3px;
+    width:100%;
+}
+.header .links .icon .span:nth-child(2){
+    height:3px;
+    width:60%;
+}
+.header .links .icon .span:child{
+    height:3px;
+    width:100%;
+}
+
+
